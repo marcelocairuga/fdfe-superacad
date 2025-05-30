@@ -1,0 +1,45 @@
+:root {
+   --primary-color: #3f51b5;
+   --primary-hover-color: #202f7f;
+   --secundary-color: #4caf50;
+   --secundary-hover-color: #3d8b40;
+   --danger-color: #c62828;
+   --danger-hover-color: #a31f1f;
+   --danger-bg-color: #ffebee;
+   --cancel-color: #f1f1f1;
+   --cancel-hover-color: #ddd;
+   --text-color: #333;
+   --text-light-color: #666;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: 0;
+   min-width: 320px;
+   min-height: 100vh;
+   background-color: var(--background-color);
+   color: var(--text-color);
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+}
+
+input, textarea, button, select {
+   font: inherit; 
+   color: inherit;
+   line-height: inherit;
+}
+
+button {
+   cursor: pointer;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}

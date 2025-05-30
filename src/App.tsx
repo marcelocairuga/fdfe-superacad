@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from "./pages/layout";
+import { Layout } from "./layouts/layout";
 import { Home } from "./pages/home/page";
 import { Courses } from "./pages/courses/page";
 import { Login } from "./pages/login/page";
 import { Subjects } from "./pages/subjects/page";
-import { NotFound } from "./pages/not-found";
+import { NotFound } from "./pages/not-found/page";
 
 function App() {
    return (
